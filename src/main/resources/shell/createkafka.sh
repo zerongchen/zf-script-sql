@@ -1,0 +1,3 @@
+/opt/cloudera/parcels/KAFKA/lib/kafka/bin/kafka-topics.sh --create --zookeeper server-1,server-2,server-3:2181 --replication-factor 3 --partitions 3 --topic zfmessagequeue
+/opt/cloudera/parcels/KAFKA/lib/kafka/bin/kafka-topics.sh --create --zookeeper server-1,server-2,server-3:2181 --replication-factor 3 --partitions 15 --topic zfud1logqueue
+/opt/cloudera/parcels/KAFKA/lib/kafka/bin/kafka-topics.sh --create --zookeeper server-1,server-2,server-3:2181 --replication-factor 3 --partitions 15 --topic zfradiusqueue
